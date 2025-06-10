@@ -1,4 +1,4 @@
-import { use, useState } from "react"
+import { useState } from "react"
 import confetti from "canvas-confetti"
 import { Square } from "./components/Square.jsx"
 import { TURNS } from "./constants.js"
@@ -91,3 +91,6 @@ export default App
 // los datos del nuevo render tienen que ser nuevos u el mismo
 // cuando se actualiza un estado, se actualiza pero no bloquea lo que siga
 // los estados son asincronos.
+
+//useState me permite tener un estado, que al actualizarlo, se actualiza el estado y se renderiza el componente con el nuevo estado.
+//useEffect me permite ejecutar una función cuando el componente se renderiza, cada vez que las dependencias cambian tiene que volver a ejecutar la función.
