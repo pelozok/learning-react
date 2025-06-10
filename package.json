@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/pelozok/learning-react/issues"
   },
-  "homepage": "https://github.com/pelozok/learning-react#readme"
+  "homepage": "https://github.com/pelozok/learning-react#readme",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }
